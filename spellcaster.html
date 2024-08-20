@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>spellcaster Project</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/shared/general.css">
+    <link rel="stylesheet" href="styles/shared/spellcaster-header.css">
+    <link rel="stylesheet" href="styles/pages/spellcaster.css">
+  </head>
+  <body>
+    <div class="spellcaster-header">
+      <div class="spellcaster-header-left-section">
+        <a href="spellcaster.html" class="header-link">
+          <img class="spellcaster-logo"
+            src="images/SpellCaster.png">
+          <img class="spellcaster-mobile-logo"
+            src="images/SpellCaster.png">
+        </a>
+      </div>
+
+      <div class="spellcaster-header-middle-section">
+        <input class="search-bar js-search-bar" type="text" placeholder="Search" value="" data-testid="search-input">
+
+        <button class="search-button js-search-button">
+          <img class="search-icon" src="images/icons/search-icon.png">
+        </button>
+      </div>
+
+      <div class="spellcaster-header-right-section">
+        <a class="orders-link header-link">
+          <span class="returns-text">Returns</span>
+          <span class="orders-text">& Orders</span>
+        </a>
+
+        <a class="cart-link header-link" href="checkout.html">
+          <img class="cart-icon" src="images/icons/cart-icon.png">
+          <div class="cart-quantity js-cart-quantity"></div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+
+
+
+    <div class="main-heading">
+
+      <div>
+        <img src="images/SpellCaster.png" class="logo">
+      </div>
+
+      <div>
+        <h1>SpellCaster Fitness Warehouse</h1>
+        <p>Your Ultimate Destination for Fitness Equipment. At SpellCaster, we are dedicated to providing top-quality fitness equipment and accessories at unbeatable wholesale prices. Whether you're a gym owner, personal trainer, or fitness enthusiast, we have everything you need to elevate your workout experience.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="main">
+      <div class="products-grid js-products-grid">
+      </div>
+    </div>
+
+    <div class="sidebar">
+      </div>
+    </div>
+
+    <script type="module" src="scripts/spellcaster.js"></script>
+  </body>
+</html>
+
+
